@@ -3,7 +3,8 @@ import math
 
 class SquareRoot:
     a = 0
+    result = 0
 
     def __init__(self, a):
         self.a = a
-        return math.sqrt(self.a)
+        self.result = math.sqrt(self.a)

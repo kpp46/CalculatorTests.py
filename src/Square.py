@@ -1,6 +1,7 @@
-class Addition:
+class Square:
     a = 0
+    result = 0
 
     def __init__(self, a):
         self.a = a
-        return self.a * self.a
+        self.result = self.a * self.a
