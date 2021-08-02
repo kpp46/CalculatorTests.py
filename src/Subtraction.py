@@ -6,4 +6,4 @@ class Subtraction:
     def __init__(self, a, b):
         self.a = a
         self.b = b
-        self.result = self.a - self.b
+        self.result = self.b - self.a
